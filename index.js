@@ -7,7 +7,8 @@ function feed(thing) {
 		board.wait(250, function() {
 			motorWater.stop();
 		});
-	} else if (thing == "food") {
+	}
+	if (thing == "food") {
 		motorFood.start();
 		board.wait(2000, function() {
 			motorFood.stop();
