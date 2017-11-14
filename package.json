@@ -1,0 +1,27 @@
+{
+  "name": "catfeeder",
+  "version": "2.0.0",
+  "description": "a cat feeder for my litle cat :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "catfeeder"
+  },
+  "keywords": [
+    "arduino",
+    "cat",
+    "feeder",
+    "node",
+    "js",
+    "johnny",
+    "five"
+  ],
+  "author": "marcelocornejo",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^0.11.7"
+  }
+}
