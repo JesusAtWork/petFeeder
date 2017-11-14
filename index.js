@@ -4,7 +4,7 @@ var board = new five.Board();
 function feed(thing) {
 	if (thing == "water") {
 		motorWater.start();
-		board.wait(500, function() {
+		board.wait(250, function() {
 			motorWater.stop();
 		});
 	} else if (thing == "food") {
